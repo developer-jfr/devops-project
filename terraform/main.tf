@@ -6,6 +6,9 @@ terraform {
     }
   }
   backend "s3" {
+    bucket         = "devops-directive-tf-state-bakai" # REPLACE WITH YOUR BUCKET NAME
+    region         = "us-east-1"
+    encrypt        = true
     key = "aws/ec2-deploy/terraform.tfstate"
   }
 }
