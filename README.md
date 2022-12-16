@@ -4,7 +4,7 @@
 
 ## Technologies:
 - Terraform
-- Github Actions
+- Github 
 - Docker
 - Node.js
 - AWS EC2
